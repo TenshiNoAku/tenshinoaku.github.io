@@ -1,126 +1,110 @@
-<!DOCTYPE html>
+CTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>title</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Обо мне</title>
 </head>
 <body>
-    <h1>
-        Обо мне
-    </h1>
-
-    <img 
-        src="assets/image.png"
-        alt="Фото крутого кролика"
-    >
-    <h2>Основная информация</h2>
-
-    <ul>
-        <li>
-            <b>Имя:</b> Иван
-        </li>
-        <li>
-            <b>Возраст:</b> 20
-        </li>
-        <li>
-            <b>Город:</b> Таганрог
-        </li>
-        <li>
-            <b>Место учебы:</b>
-            Иститут компьютерных технологий и информационной
-            безопасности Южного федерального университета
-        </li>
-        <li>
-            <b>Специальность:</b> Системная интеграция ИТ-решений
-        </li>
-    </ul>
+<main class="container">
+    <section class="head">
+        <img
+                src="assets/image/image.png"
+                alt="Фото крутого кролика"
+        >
+        <div>
+            <h1>Иван</h1>
+        </div>
+    </section>
+    <section class="basic-info">
+        <h2>Основная информация</h2>
+        <ul>
+            <li><b>Имя:</b> Иван</li>
+            <li><b>Возраст:</b> 20</li>
+            <li><b>Город:</b> Таганрог</li>
+            <li><b>Место учёбы:</b> Институт компьютерных технологий и
+                информационной безопасности, Южный федеральный университет</li>
+            <li><b>Специальность:</b> Системная интеграция ИТ-решений</li>
+        </ul>
+    </section>
     <hr>
-    <h2>Образование</h2>
-    <table>
-        <thead>
+    <section class="education">
+        <h2>Образование</h2>
+        <table>
+            <thead>
             <tr>
-            <th>Учебное заведение</th>
-            <th>Годы обучения</th>
-            <th>Специальность</th>
+                <th>Учебное заведение</th>
+                <th>Годы обучения</th>
+                <th>Специальность</th>
             </tr>
-        </thead>
-        <tbody>
+            </thead>
+            <tbody>
             <tr>
-                <td>
-                    Лицей №1 г.Уварово
-                </td>
-                <td>
-                    2014-2022
-                </td>
-                <td>
-                    -
-                </td>
+                <td>Лицей №1 г. Уварово</td>
+                <td>2014–2022</td>
+                <td>—</td>
             </tr>
             <tr>
-                <td>
-                    ИКТИБ ЮФУ
-                </td>
-                <td>
-                    2022-2026
-                </td>
-                <td>
-                    -
-                </td>
+                <td>ИКТИБ ЮФУ</td>
+                <td>2022–2026</td>
+                <td>Системная интеграция ИТ-решений</td>
             </tr>
-        </tbody>
-    </table>
+            </tbody>
+        </table>
+    </section>
+
     <hr>
 
-    <h2>Хобби и интересы</h2>
-    <ul>
-        <li>
-             D&D
-        </li>
-        
-        <li>
-            Настольные игры
-        </li>
-        <li>
-            Готовка
-        </li>
-        <li>
-            Астрономия
-        </li>
-    </ul>
-    <hr>
-    <h2> Навыки </h2>
-    <ul>
-        <li>
-            Языки программирования
+    <section class="hobbies">
+        <h2>Хобби и интересы</h2>
+        <ul>
             <ul>
-                <li>PHP</li>
-                <li>Python</li>
-                <li>C++</li>
+                <li>D&D</li>
+                <li>Настольные игры</li>
             </ul>
-        </li>
-        <li>
-            Иностранные языки
             <ul>
-                <li>Английский</li>
+                <li>Готовка</li>
+                <li>Астрономия</li>
             </ul>
-        </li>
-    </ul>
+        </ul>
+    </section>
+
     <hr>
-    <h2>
-        Как со мной связаться
-    </h2>
-    <ul>
-        <li>
-            <b>Email</b>: 
-            <a href="mailto:tenshinoakuma@gmail.com">tenshinoakumi@gmail.com</a>
-        </li>
-        <li>
-            <b>Telegram</b>: 
-            <a href="https://t.me/maybePathetic">@maybePathetic</a>
-        </li>
-        <li>
-           <a href="https://github.com"><b>GitHub</b></a>
-        </li>
-    </ul>
+
+    <section class="skills">
+        <h2>Навыки</h2>
+        <div class="two-col">
+            <div>
+                <h3>Языки программирования</h3>
+                <ul class="skills-list">
+                    <li class="pill">PHP</li>
+                    <li class="pill">Python</li>
+                    <li class="pill">C++</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Иностранные языки</h3>
+                <ul class="skills-list">
+                    <li class="pill">Английский</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="contact">
+        <h2 >Как со мной связаться</h2>
+        <ul>
+            <li>
+                <b>Email:</b>
+                <a href="mailto:tenshinoakumi@gmail.com">tenshinoakumi@gmail.com</a>
+            </li>
+            <li>
+                <b>Telegram:</b>
+                <a href="https://t.me/maybePathetic">@maybePathetic</a>
+            </li>
+            <li><a href="https://github.com"><b>GitHub</b></a></li>
+        </ul>
+    </section>
+</main>
 </body>
 </html>

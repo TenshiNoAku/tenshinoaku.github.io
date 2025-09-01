@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+figure
+{
+    display: inline-block;
+}
+
+img {
+    padding: 10px;
+
+    background: wheat;
+    display: block;
+    border: 3px grey solid ;
+}
+
+figure::before, figure::after {
+    content: "";
+    background: white;
+
+    width: 130px;
+    height: 70px;
+
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    left: 350px;
+    bottom: -40px;
+
+
+    rotate: 45deg;
+}
+
+figure:before {
+    box-shadow: 2px 24px 6px -16px rgba(0, 0, 0, 0.5);
+    border-bottom: dashed 3px;
+}
+
+
+figure:after {
+    box-shadow: 5px -31px 32px -23px rgba(0, 0, 0, 0.5);
+    border-top: dashed 3px;
+
+    left: -60px;
+    bottom: 35px;
+}

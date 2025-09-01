@@ -1,0 +1,57 @@
+* {
+    font-size: 15px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+
+}
+
+body {
+    background-color: #9be06c;
+    align-items: center;
+}
+
+form {
+    height: 25%;
+    width: 25%;
+
+    background-color: white;
+
+    margin: auto;
+    padding: 40px;
+}
+
+input {
+    width: 100%;
+
+    padding: 15px;
+
+    border: none;
+}
+
+div {
+    width: 100%;
+}
+
+form div {
+    margin-bottom: 25px;
+
+    border: 1px solid;
+}
+
+form div:last-child {
+    margin: 0
+}
+
+button {
+    width: 100%;
+
+    border: none;
+    background-color: #eeeeee;
+
+    padding: 15px;
+}
+
+div {
+    text-align: center;
+}
